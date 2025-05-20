@@ -48,8 +48,8 @@ INSERT INTO Users (name_, username, password_, email) VALUES
 ('Aparecido', 'Rh_apareci', '55@!cido', 'aparecido@empresa.com')
 
 INSERT INTO Projects (name_, description_, date_) VALUES
-('Re-folha', 'Refatoração das Folhas', '2014-09-05'),
-('Manutenção', 'Manutencao PC', '2014-09-06')
+('Re-folha', 'RefatoraÃ§Ã£o das Folhas', '2014-09-05'),
+('ManutenÃ§Ã£o', 'Manutencao PC', '2014-09-06')
 
 INSERT INTO Projects (name_, date_) VALUES
 ('Auditoria', '2014-09-07')
@@ -75,5 +75,3 @@ WHERE username = 'Rh_maria' AND password_ = '123mudar'
 
 DELETE Users_has_projects
 WHERE usersId = 2
-
-select * from Users_has_projects
